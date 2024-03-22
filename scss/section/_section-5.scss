@@ -1,23 +1,20 @@
 .client-fifth{
+    width: 100%;
     height: max-content;
     background-color: #f1f1f1;
     padding: 30px 0;
-    h1:nth-child(1) {
-        font: 48px Ralevay, sans-serif;
+    h1 {
+        font-size: 48px;
+        font-family:Raleway, sans-serif;
         font-weight: 700;
         text-align: center !important;
     }
 }
-
-
-
-
 .client-fifth__Grid{
     display: grid;
     justify-content: center;
     gap: 20px;
     grid-template-columns: auto auto;
-
     .fifth__Grid-first, .fifth__Grid-fourth{
         background: linear-gradient(180deg,#2a9aaf 0%, #cbe370 80%);
         color: white;
@@ -35,7 +32,8 @@
             font-family: Raleway, sans-serif;
         }
         p{
-            font: 16px "Open Sans", sans-serif;
+            font-size: 16px;
+            font-family: "Open Sans", sans-serif;
             line-height: 2;
         }
     }
@@ -43,7 +41,6 @@
 
 @media only screen and (max-width: 991px){
     .client-fifth__Grid{
-
         div{
             width: 350px;
             // padding-left: 14px;
