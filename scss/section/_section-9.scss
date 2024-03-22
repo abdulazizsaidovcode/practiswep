@@ -1,0 +1,42 @@
+@mixin centr{
+    display: flex;
+    justify-content: center;
+}
+@mixin grid{
+    column-gap: 5px;
+    row-gap: 5px;
+    display: grid;
+    grid-template-columns: auto!important;
+    grid-template-rows: auto !important;
+}
+.next__acaunt{
+    display: grid;
+    row-gap: 10px;
+    padding-top: 60px;
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    width: 100%;
+    height: 14vw;
+   
+}
+.text__2h{
+    h4{
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin: 1px;
+    }
+}
+.text__2a{
+        b{
+            color: rgb(255, 255, 255);
+        }
+        a:hover{
+            color: rgb(36, 35, 35);
+            text-decoration: none;
+        }
+}
+@media only screen and (max-width:760px){
+    .next__acaunt{
+        text-align: start;
+    }
+}

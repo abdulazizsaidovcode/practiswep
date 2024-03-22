@@ -1,0 +1,15 @@
+@mixin for-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
