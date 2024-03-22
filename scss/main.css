@@ -98,11 +98,111 @@ body {
   width: 100%;
 }
 
-<<<<<<< HEAD
-section {
-  background: #000;
+.section2 {
+  width: 100%;
 }
 
+.black {
+  background-image: linear-gradient(to right, #2799b1, #d5e76c);
+  width: 100%;
+  height: 192px;
+  margin-top: 160px;
+}
+
+.container__images {
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 50px;
+}
+
+.container__image {
+  width: 600px;
+}
+.container__image .img__1 {
+  width: 600px;
+  height: 570px;
+  border-radius: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container__image .img__2 {
+  width: 600px;
+  height: 700px;
+  border-radius: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.text__what h5 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 30px;
+  margin: 50px 0 0;
+  text-align: center;
+}
+.text__what p {
+  font-family: "open sans", sans-serif;
+  font-size: 23px;
+  letter-spacing: 0px;
+  font-style: normal;
+  margin: 20px 0 0;
+  text-align: center;
+  line-height: 2;
+}
+
+.more__btn {
+  border-radius: 12px;
+  width: 212px;
+  height: 57.6px;
+  border: none;
+  background-image: none;
+  color: #2799b1;
+  background-color: #d5e76c;
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+  padding: 15px 44px 17px 44px;
+  margin-top: 35px;
+  font-weight: 700;
+}
+
+.more__btn:hover {
+  background-color: #d5e76c;
+}
+
+.school__text h3 {
+  text-align: center;
+  font: 40px "Raleway", sans-serif;
+  font-weight: 700;
+}
+.school__text p {
+  text-align: center;
+  font-family: "open sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-style: normal;
+  margin: 20px 0 0;
+  line-height: 2;
+}
+
+@media only screen and (max-width: 600px) {
+  .container__images {
+    grid-template-columns: auto;
+  }
+  .section2 {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .container__images {
+    grid-template-columns: auto;
+    width: auto;
+  }
+}
 .section-sixth {
   width: 100%;
   max-height: -moz-max-content;
@@ -201,7 +301,6 @@ section {
   background-color: rgb(150, 235, 24);
 }
 
-=======
 .seventh-section__block {
   width: 100%;
   height: -moz-max-content;
@@ -487,7 +586,6 @@ section {
     height: 414px !important;
   }
 }
-<<<<<<< HEAD
 .next__acaunt {
   display: grid;
   row-gap: 10px;
@@ -517,9 +615,6 @@ section {
     text-align: start;
   }
 }
-=======
->>>>>>> d64684f940d55e22494476f263756c9f5c21fb24
->>>>>>> ab92f0ce1483935bfd3da03de4a4f60f0745ca58
 @media only screen and (max-width: 754px) {
   .fa-bars {
     position: relative;
