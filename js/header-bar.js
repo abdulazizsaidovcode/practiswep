@@ -6,4 +6,4 @@
             } else {
                 list.style.display = "none";
             }
-        }
+        } 
