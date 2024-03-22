@@ -3,7 +3,84 @@
 @import "normalize";
 @import "general";
 @import "all-blocks/all-blocks";
+@import "../mixin/allmixin";
+$eighth-section-bg-color:#f2f2f2;
+.eighth-section{
+    width: 100%;
+    height: max-content;
+    background-color: $eighth-section-bg-color;
+}
+.eighth-section__first-div{
+    font-size: 16px;
+    @include flex-center;
+    .first-div__items__item{
+        @include flex-center;
+        padding: 10px 12px;
+    }
+    .first-div__items-title{
+        padding: 10px 12px;
+    }
+    input{
+        background-color: $eighth-section-bg-color;
+        width: 281px;
+        height: 25.600px;
+        padding: 10px 12px;
+        font-size: 16px;
+        border: none;
+        border-bottom: 1px solid;
+    }
+    label{
+        font-size: 16px;
+        color: black;
+        font-size: 1rem;
+        font-weight: 700;
+        font-family: sans-serif;
 
-
+    }
+    .first-div__items__select{
+        text-align: center;
+    }
+    select{
+        background-color: $eighth-section-bg-color;
+        width: 635px;
+        height: 47px    ;
+        font-size: 16px;
+        padding: 10px 12px;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    button{
+        width: 625px;
+        height: 54px;
+        padding: 10px 12px;
+        background-color: rgb(186, 212, 91);
+        color: #2799b1;
+        font-size: 16px;
+        border: none;
+    }
+    button:hover{
+        color: white;
+        background-color: #238a9f;
+        font-family: sans-serif;
+    }
+    textarea{
+        width: 606px;
+        height: 106px;
+        border: none;
+        padding: 10px 12px;
+        border-bottom: 1.5px solid;
+        background-color: #f2f2f2;
+    }
+}
+.element__div{
+    width: 346px;
+    height: 546px;
+    font-size: 1.1rem;
+    height: max-content;
+    line-height: 2;
+    word-spacing: 2px;
+    background: white;
+    padding: 15px;
+}
 
 
