@@ -310,7 +310,7 @@ body {
   gap: 20px;
   z-index: 1;
   position: absolute;
-  top: 1300px;
+  top: 2000px;
   left: 500px;
 }
 
@@ -322,7 +322,7 @@ body {
   box-shadow: 0px 3px 32px -7px rgba(0, 0, 0, 0.3);
   z-index: 1;
   position: absolute;
-  bottom: -390px;
+  bottom: -1100px;
   left: 700px;
 }
 .section-sixth__item h1 {
