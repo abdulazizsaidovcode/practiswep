@@ -20,69 +20,6 @@ body {
   height: max-content;
 }
 
-.headerTop {
-  width: 100%;
-  height: 80px;
-}
-.headerTop img {
-  width: 64px;
-  height: 32px;
-  padding-left: 25px;
-  padding-top: 25px;
-  cursor: pointer;
-  margin-left: 5%;
-}
-.headerTop .fa-bars {
-  cursor: pointer;
-  font-size: 24px;
-  width: 24px;
-  height: 21px;
-  margin-left: 75%;
-}
-.headerTop .fa-bars:hover {
-  color: rgb(255, 0, 255);
-}
-
-#list {
-  display: none;
-  position: fixed;
-  z-index: 1;
-}
-
-.right-burger-menu {
-  background: rgba(0, 0, 0, 0.956);
-  width: 250px;
-  height: 715px;
-  margin-left: -42px;
-  margin-top: -92px;
-  animation-name: home-go;
-  animation-duration: 0.7s;
-}
-@keyframes home-go {
-  0% {
-    margin-left: -182px;
-  }
-  100% {
-    margin-left: -41px;
-  }
-}
-.right-burger-menu .home {
-  text-decoration: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-  color: #fff;
-  font-size: 20px;
-  font-family: Open Sans, sans-serif;
-  /* margin-top: 300px; */
-  position: relative;
-  top: 120px;
-  left: 90px;
-}
-.right-burger-menu .home:hover {
-  color: rgba(255, 255, 255, 0.5450980392);
-}
-
 .libraryLanding {
   background-image: url(../img/section-1/bg.jpg);
   background-repeat: no-repeat;
@@ -161,11 +98,111 @@ body {
   width: 100%;
 }
 
-<<<<<<< HEAD
-section {
-  background: #000;
+.section2 {
+  width: 100%;
 }
 
+.black {
+  background-image: linear-gradient(to right, #2799b1, #d5e76c);
+  width: 100%;
+  height: 192px;
+  margin-top: 160px;
+}
+
+.container__images {
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 50px;
+}
+
+.container__image {
+  width: 600px;
+}
+.container__image .img__1 {
+  width: 600px;
+  height: 570px;
+  border-radius: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container__image .img__2 {
+  width: 600px;
+  height: 700px;
+  border-radius: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.text__what h5 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 30px;
+  margin: 50px 0 0;
+  text-align: center;
+}
+.text__what p {
+  font-family: "open sans", sans-serif;
+  font-size: 23px;
+  letter-spacing: 0px;
+  font-style: normal;
+  margin: 20px 0 0;
+  text-align: center;
+  line-height: 2;
+}
+
+.more__btn {
+  border-radius: 12px;
+  width: 212px;
+  height: 57.6px;
+  border: none;
+  background-image: none;
+  color: #2799b1;
+  background-color: #d5e76c;
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+  padding: 15px 44px 17px 44px;
+  margin-top: 35px;
+  font-weight: 700;
+}
+
+.more__btn:hover {
+  background-color: #d5e76c;
+}
+
+.school__text h3 {
+  text-align: center;
+  font: 40px "Raleway", sans-serif;
+  font-weight: 700;
+}
+.school__text p {
+  text-align: center;
+  font-family: "open sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-style: normal;
+  margin: 20px 0 0;
+  line-height: 2;
+}
+
+@media only screen and (max-width: 600px) {
+  .container__images {
+    grid-template-columns: auto;
+  }
+  .section2 {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .container__images {
+    grid-template-columns: auto;
+    width: auto;
+  }
+}
 .section-sixth {
   width: 100%;
   max-height: -moz-max-content;
@@ -202,7 +239,7 @@ section {
   gap: 20px;
   z-index: 1;
   position: absolute;
-  top: 600px;
+  top: 1300px;
   left: 500px;
 }
 
@@ -214,7 +251,7 @@ section {
   box-shadow: 0px 3px 32px -7px rgba(0, 0, 0, 0.3);
   z-index: 1;
   position: absolute;
-  bottom: 310px;
+  bottom: -390px;
   left: 700px;
 }
 .section-sixth__item h1 {
@@ -264,7 +301,6 @@ section {
   background-color: rgb(150, 235, 24);
 }
 
-=======
 .seventh-section__block {
   width: 100%;
   height: -moz-max-content;
@@ -550,7 +586,6 @@ section {
     height: 414px !important;
   }
 }
->>>>>>> d64684f940d55e22494476f263756c9f5c21fb24
 @media only screen and (max-width: 754px) {
   .fa-bars {
     position: relative;
