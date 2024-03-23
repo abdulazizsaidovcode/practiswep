@@ -1,4 +1,12 @@
-*::selection{
+*::selection {
     color: #fff;
+    background-color: greenyellow;
+}
+
+::-webkit-scrollbar {
+    width: 22px;
+}
+
+::-webkit-scrollbar-thumb {
     background-color: greenyellow;
 }
