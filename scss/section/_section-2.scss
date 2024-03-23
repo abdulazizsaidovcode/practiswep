@@ -1,23 +1,15 @@
-.section2 {
+.section2{
     width: 100%;
+    height: 990px;
+    padding-top: 20px;
 }
-
-.black {
-    background-image: linear-gradient(to right, #2799b1, #d5e76c);
+.container__images{
     width: 100%;
-    height: 192px;
-    margin-top: 160px;
-}
-
-.container__images {
-    padding: 10px;
     display: grid;
-    gap: 10px;
     grid-template-columns: auto auto;
     justify-content: center;
     gap: 50px;
 }
-
 .container__image {
     width: 600px;
     .img__1 {
@@ -95,14 +87,10 @@
     .container__images {
         grid-template-columns: auto;
     }
-    .section2 {
-        width: 80%;
-    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
     .container__images {
         grid-template-columns: auto;
-        width: auto;
     }
 }
