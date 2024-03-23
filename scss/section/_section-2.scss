@@ -9,7 +9,7 @@
     grid-template-columns: auto auto;
     justify-content: center;
     gap: 60px;
-} 
+}
 .container__image {
     width: 400px;
     .img__1 {
@@ -92,7 +92,23 @@
 }
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
-    .container__images {
+    .container__images{
         grid-template-columns: auto;
+    }
+    .container__image {
+        width: 700px;
+
+        .img__1 {
+            width: 700px;
+            height: 370px;
+            border-radius: 30px;
+            object-fit: cover;
+        }
+        .img__2 {
+            width: 700px;
+            height: 500px;
+            border-radius: 30px;
+            object-fit: cover;
+        }
     }
 }
