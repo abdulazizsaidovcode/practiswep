@@ -9,7 +9,7 @@
     height: 600px;
     .libraryLanding__grid {
         overflow: hidden;
-        @include for-flex;
+        // @include for-flex;
         .libraryLanding-grid__pack {
             z-index: 2;
             width: 200px;

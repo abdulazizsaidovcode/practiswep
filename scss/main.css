@@ -4,10 +4,10 @@ body {
   box-sizing: border-box;
 }
 
-*::-moz-selection {
+/* *::-moz-selection {
   color: #fff;
   background-color: greenyellow;
-}
+} */
 
 *::selection {
   color: #fff;
