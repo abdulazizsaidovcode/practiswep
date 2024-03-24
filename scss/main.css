@@ -204,7 +204,7 @@ body {
 }
 
 .more__btn:hover {
-  background-color: #d5e76c;
+  background-color: #cde24f;
 }
 
 .school__text h3 {
@@ -348,88 +348,48 @@ body {
 }
 .section-sixth {
   width: 100%;
-  max-height: -moz-max-content;
-  max-height: max-content;
-  background-color: rgba(235, 232, 232, 0.768627451);
+  max-height: 153.5vh;
+  background-color: #f1f1f1;
 }
-
-.section-sixth__container {
+.section-sixth .section-sixth__container {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
 }
-.section-sixth__container .section-sixth__container__content-first img {
-  width: 580px;
-  height: 650px;
-  position: relative;
-  left: 100px;
-  z-index: 1;
-  margin-top: 100px;
+.section-sixth .section-sixth__container .section-sixth__container-first {
+  background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/7f922619beb5500680b8dc58/nn.jpg);
+  width: 600px;
+  height: 600px;
+  background-size: contain;
+  margin-top: 150px;
 }
-.section-sixth__container .section-sixth__container__content-second img {
-  width: 750px;
-  height: 900px;
-  position: relative;
-  right: 100px;
-  margin-top: 200px;
+.section-sixth .section-sixth__container .section-sixth__container-second {
+  background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/3c78d290f59250859f377a37/jh.jpg);
+  width: 600px;
+  height: 850px;
+  background-size: cover;
+  margin-top: 270px;
 }
-
-.section-sixth__title {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-  justify-content: center;
-  gap: 20px;
-  z-index: 1;
-  position: absolute;
-  top: 3100px;
-  left: 500px;
-}
-
-.section-sixth__item {
-  width: 500px;
+.section-sixth .section-sixth__item {
+  width: 480px;
   height: 370px;
   background-color: white;
   border-radius: 30px;
   box-shadow: 0px 3px 32px -7px rgba(0, 0, 0, 0.3);
-  z-index: 1;
-  position: absolute;
-  bottom: -2150px;
-  left: 700px;
+  position: relative;
+  bottom: 1080px;
+  left: 680px;
 }
-.section-sixth__item h1 {
+.section-sixth .section-sixth__item h1 {
   font-size: 45px;
   padding: 20px 0 10px 20px;
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.section-sixth__item p {
+.section-sixth .section-sixth__item p {
   padding: 0 0 0 20px;
 }
-
-.section-sixth__title__card {
-  width: 250px;
-  height: 200px;
-  background-color: white;
-  border-radius: 20px;
-  text-align: center;
-  color: blue;
-}
-.section-sixth__title__card .section-sixth__title__card__icon {
-  width: 80px;
-  height: 80px;
-  background-color: rgba(127, 200, 18, 0.697);
-  text-align: center;
-  border-radius: 40px;
-  margin: 30px 0 0 85px;
-}
-.section-sixth__title__card .section-sixth__title__card__icon i {
-  font-size: 45px;
-  position: relative;
-  top: 15px;
-}
-
-.section-sixth__item button {
+.section-sixth .section-sixth__item button {
   width: 200px;
   height: 50px;
   background-color: rgba(172, 255, 47, 0.96);
@@ -440,8 +400,39 @@ body {
   border: none;
   color: blue;
 }
-.section-sixth__item button:hover {
+.section-sixth .section-sixth__item button:hover {
   background-color: rgb(150, 235, 24);
+}
+.section-sixth .section-sixth__title {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+  gap: 20px;
+}
+.section-sixth .section-sixth__title .section-sixth__title__card {
+  width: 250px;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  color: blue;
+  position: relative;
+  bottom: 900px;
+  left: 80px;
+}
+.section-sixth .section-sixth__title .section-sixth__title__card .section-sixth__title__card__icon {
+  width: 80px;
+  height: 80px;
+  background-color: rgba(127, 200, 18, 0.697);
+  text-align: center;
+  border-radius: 40px;
+  margin: 30px 0 0 85px;
+}
+.section-sixth .section-sixth__title .section-sixth__title__card .section-sixth__title__card__icon i {
+  font-size: 45px;
+  position: relative;
+  top: 15px;
 }
 
 .seventh-section__block {
