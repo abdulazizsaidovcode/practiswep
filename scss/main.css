@@ -135,7 +135,7 @@ body {
   width: 100%;
   height: -moz-max-content !important;
   height: max-content !important;
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 .orqa_fon {
@@ -889,20 +889,19 @@ body {
 
 .text__2h h4 {
   color: rgb(255, 255, 255);
-  font-weight: bold;
+  font-weight: 500;
   margin: 1px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .text__2a b {
   color: rgb(255, 255, 255);
+  font-weight: 400;
 }
 .text__2a a:hover {
-  color: rgb(36, 35, 35);
+  color: #928f8f;
   text-decoration: none;
 }
-
-@media only screen and (max-width: 760px) {
-  .next__acaunt {
-    text-align: start;
-  }
+.text__2a a {
+  color: aqua;
 }/*# sourceMappingURL=main.css.map */
