@@ -23,6 +23,14 @@ html(lang="en")
 
     body 
         // ! =========== Section-1 Jasur's ============
+        header.headerTop  
+            a(href="") 
+                img(src="../img/logo.png", alt="logo")
+            i( onclick="hide('list')" ).fa.fa-bars
+            ul#list 
+                div.right-burger-menu
+                    a.home(href="./index.html") home
+                    
         section.libraryLanding 
             div.libraryLanding__grid
                 div.libraryLanding-grid__pack
