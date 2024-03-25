@@ -1,9 +1,17 @@
 
 .section2{
     width: 100%;
-    height: 990px;
-    padding-top: 20px;
+    padding-top: 100px;
 }
+
+.orqa_fon{
+    width: 100%;
+    height: 192px;
+    background-image: linear-gradient(to right, #2799b1, #d5e76c);
+    margin-top: 60px;
+}
+
+
 .container__images{
     width: 100%;
     display: grid;
@@ -16,14 +24,22 @@
     .img__1 {
         width: 400px;
         height: 370px;
-        border-radius: 30px;
+        border-radius: 20px;
         object-fit: cover;
+        animation-name: ani__img;
+        animation-duration: 1s;
     }
     .img__2 {
         width: 400px;
         height: 500px;
-        border-radius: 30px;
+        border-radius: 20px;
         object-fit: cover;
+        animation-name: ani_img;
+        animation-duration: 2s;
+    }
+
+    .container__image2{
+        margin-top: -120px;
     }
 }
 
@@ -71,7 +87,7 @@
 
 
 .more__btn:hover {
-    background-color: $a-btn-background-color-hover; 
+    background-color: #defd31;
 }
 
 .school__text {
@@ -91,11 +107,30 @@
     }
 }
 
+
+@keyframes ani__img {
+    from {
+        margin-left: -200px;
+    }
+}
+
+@keyframes ani_img {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1); 
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .container__images {
         grid-template-columns: auto;
         .container__image{
             width: 320px
+        }
+        .container__image2{
+            margin-top: 0px;
         }
         .img__1 {
             width:320px;
@@ -128,10 +163,15 @@
 
         .img__1 {
             width: 700px;
-            height: 470px;
+            height: 600px;
             border-radius: 30px;
             object-fit: cover;
         }
+
+        .container__image2{
+            margin-top: 0px;
+        }
+
         .img__2 {
             width: 700px;
             height: 600px;
