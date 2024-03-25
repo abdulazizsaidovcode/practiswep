@@ -301,7 +301,7 @@ body {
   gap: 20px;
   grid-template-columns: auto auto;
 }
-.client-fifth__Grid .fifth__Grid-first, .client-fifth__Grid .fifth__Grid-fourth {
+.client-fifth__Grid .fifth__Grid-firstgit, .client-fifth__Grid .fifth__Grid-fourth {
   background: linear-gradient(180deg, #2a9aaf 0%, #cbe370 80%);
   color: white;
 }
