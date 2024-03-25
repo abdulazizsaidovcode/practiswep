@@ -6,7 +6,7 @@
     text-align: center;
     background-color: rgb(44, 44, 44);
     width: 100%;
-    height: 14vw;
+    height: max-content;
    
 }
 .text__2h{
@@ -29,9 +29,4 @@
         a{
             color: aqua;
         }
-}
-@media only screen and (max-width:760px){
-    .next__acaunt{
-        text-align: start;
-    }
 }
