@@ -1,7 +1,8 @@
 .section-sixth{
     width: 100%;
-    max-height: 155vh;
+    height: max-content;
     background-color: #f1f1f1;
+    padding-bottom: 160px;
     .section-sixth__container{
         display: grid;
         grid-template-columns: auto auto;
