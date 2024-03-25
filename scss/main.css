@@ -297,6 +297,7 @@ body {
 
 .client-fifth__Grid {
   display: grid;
+  margin-top: 50px;
   justify-content: center;
   gap: 20px;
   grid-template-columns: auto auto;

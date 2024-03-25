@@ -1,5 +1,6 @@
 .client-fifth{
     width: 100%;
+
     height: max-content;
     background-color: #f1f1f1;
     padding: 30px 0;
@@ -12,6 +13,7 @@
 }
 .client-fifth__Grid{
     display: grid;
+    margin-top: 50px;
     justify-content: center;
     gap: 20px;
     grid-template-columns: auto auto;
