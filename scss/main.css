@@ -883,8 +883,7 @@ body {
   text-align: center;
   background-color: rgb(44, 44, 44);
   width: 100%;
-  height: -moz-max-content;
-  height: max-content;
+  height: 14vw;
 }
 
 .text__2h h4 {
