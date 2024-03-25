@@ -91,6 +91,12 @@ body {
   color: rgba(255, 255, 255, 0.5450980392);
 }
 
+@media only screen and (max-width: 579px) {
+  .fa-bars {
+    position: relative;
+    top: -23px;
+  }
+}
 .libraryLanding {
   background-image: url(../img/section-1/bg.jpg);
   background-repeat: no-repeat;
