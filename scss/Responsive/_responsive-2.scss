@@ -1,11 +1,32 @@
-@media only screen and (max-width: 600px) {
-    .container__images {
-        grid-template-columns: auto;
-    }
-}
+// @media only screen and (max-width: 600px) {
+//     .container__images {
+//         grid-template-columns: auto;
+//             }
+// }
 
-@media only screen and (min-width: 600px) and (max-width: 900px) {
-    .container__images {
-        grid-template-columns: auto;
-    }
-}
+// @media only screen and (min-width: 600px) and (max-width: 900px) {
+//     .container__images{
+//         grid-template-columns: auto;
+//     }
+//     .container__image {
+//         width: 700px;
+
+//         .img__1 {
+//             width: 700px;
+//             height: 600px;
+//             border-radius: 30px;
+//             object-fit: cover;
+//         }
+
+//         .container__image2{
+//             margin-top: 0px;
+//         }
+
+//         .img__2 {
+//             width: 700px;
+//             height: 600px;
+//             border-radius: 30px;
+//             object-fit: cover;
+//         }
+//     }
+// }

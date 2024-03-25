@@ -133,11 +133,20 @@ body {
 
 .section2 {
   width: 100%;
-  height: 990px;
-  padding-top: 20px;
+  height: -moz-max-content !important;
+  height: max-content !important;
+  padding-top: 60px;
+}
+
+.orqa_fon {
+  width: 100%;
+  height: 192px;
+  background-image: linear-gradient(to right, #2799b1, #d5e76c);
+  margin-top: 90px;
 }
 
 .container__images {
+  margin-top: -120px;
   width: 100%;
   display: grid;
   grid-template-columns: auto auto;
@@ -151,16 +160,23 @@ body {
 .container__image .img__1 {
   width: 400px;
   height: 370px;
-  border-radius: 30px;
+  border-radius: 20px;
   -o-object-fit: cover;
      object-fit: cover;
+  animation-name: ani__img;
+  animation-duration: 1s;
 }
 .container__image .img__2 {
   width: 400px;
   height: 500px;
-  border-radius: 30px;
+  border-radius: 20px;
   -o-object-fit: cover;
      object-fit: cover;
+  animation-name: ani_img;
+  animation-duration: 2s;
+}
+.container__image .container__image2 {
+  margin-top: -120px;
 }
 
 .freepik {
@@ -204,7 +220,7 @@ body {
 }
 
 .more__btn:hover {
-  background-color: #cde24f;
+  background-color: rgba(213, 231, 108, 0.8549019608);
 }
 
 .school__text h3 {
@@ -222,31 +238,22 @@ body {
   line-height: 2;
 }
 
+@keyframes ani__img {
+  from {
+    margin-left: -200px;
+  }
+}
+@keyframes ani_img {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 @media only screen and (max-width: 600px) {
   .container__images {
     grid-template-columns: auto;
-  }
-  .container__images .container__image {
-    width: 320px;
-  }
-  .container__images .img__1 {
-    width: 320px;
-    height: 470px;
-    border-radius: 30px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .container__images .img__2 {
-    width: 320px;
-    height: 600px;
-    border-radius: 30px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-}
-@media only screen and (min-width: 600px) {
-  .container__images {
-    grid-template-columns: auto auto;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 900px) {
@@ -258,10 +265,13 @@ body {
   }
   .container__image .img__1 {
     width: 700px;
-    height: 470px;
+    height: 600px;
     border-radius: 30px;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .container__image .container__image2 {
+    margin-top: 0px;
   }
   .container__image .img__2 {
     width: 700px;
