@@ -903,4 +903,10 @@ body {
 }
 .text__2a a {
   color: aqua;
+}
+
+@media only screen and (max-width: 767px) {
+  .next__acaunt {
+    height: 20vw;
+  }
 }/*# sourceMappingURL=main.css.map */
