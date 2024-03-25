@@ -1,14 +1,4 @@
-@mixin centr{
-    display: flex;
-    justify-content: center;
-}
-@mixin grid{
-    column-gap: 5px;
-    row-gap: 5px;
-    display: grid;
-    grid-template-columns: auto!important;
-    grid-template-rows: auto !important;
-}
+
 .next__acaunt{
     display: grid;
     row-gap: 10px;
@@ -22,17 +12,22 @@
 .text__2h{
     h4{
         color: rgb(255, 255, 255);
-        font-weight: bold;
+        font-weight: 500;
         margin: 1px;
+        font-family: "Open Sans", sans-serif;
     }
 }
 .text__2a{
         b{
             color: rgb(255, 255, 255);
+            font-weight: 400;
         }
         a:hover{
-            color: rgb(36, 35, 35);
+            color: #928f8f;
             text-decoration: none;
+        }
+        a{
+            color: aqua;
         }
 }
 @media only screen and (max-width:760px){
