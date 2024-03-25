@@ -219,7 +219,7 @@ body {
 }
 
 .more__btn:hover {
-  background-color: #defd31;
+  background-color: rgba(213, 231, 108, 0.8549019608);
 }
 
 .school__text h3 {
